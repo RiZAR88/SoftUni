@@ -11,33 +11,19 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            var num = Console.ReadLine()
-            .Split(' ')
-            .Select(int.Parse)
-            .ToList();
-            var count = 1;
-            var result = new List<int>();
+            List<string> inputList = Console.ReadLine().Split(' ').ToList();
 
-            foreach (var number in num)
+            List<string> result = new List<string>();
+
+            for (int i = 0; i < inputList.Count; i++)
             {
-
-                if (number >= 0)
+                    if(i % 2 != 0)
                 {
-                    result.Add(number);
-
-                }
-                if (number < 0)
-                {
-                    count++;
-                    if (count == num.Count)
-                    {
-                        Console.WriteLine("empty");
-                    }
+                        result.Add(inputList[i]);
                 }
             }
-            result.Reverse();
-
-            Console.WriteLine(string.Join("\n", result));
+          
+            Console.WriteLine(string.Join("", result));
         }
     }
 }
