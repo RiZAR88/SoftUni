@@ -1,0 +1,444 @@
+.content{
+    height:100%;
+    width:100%;
+    background:#f00;
+    position: fixed;
+    overflow: auto;
+}
+
+/*
+Page 1
+ */
+
+.crown-map-bulgaria,
+.map-bulgaria{
+    max-width: 100%;
+}
+
+.page1-header nav .fa-info-circle {
+    font-size: 50px;
+}
+
+.page1-main h1 {
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 #654321, 0 2px #654321, 2px 0 #654321, 0 -1px #654321;
+    font-weight: bold;
+}
+
+.page1-barname{
+    cursor: pointer;
+}
+
+.page1-main figure {
+    width: 80%;
+    margin: 3% auto;
+    position: relative;
+    z-index: 0;
+}
+.page1-main figure img.map-bulgaria {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+}
+.page1-main figure img.crown-map-bulgaria {
+    width: 7%;
+    position: absolute;
+    z-index: 1;
+}
+.crown-map-bulgaria:hover{
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+.page1-main figure #sofia {
+    top: 46%;
+    left: 12%;
+}
+.page1-main figure #starazagora {
+    left: 48.7%;
+    top: 55%;
+}
+.page1-main figure #sliven {
+    left: 60%;
+    top: 46%;
+}
+.page1-main figure #burgas {
+    left: 78%;
+    top: 53%;
+}
+.page1-main h2 {
+    text-align: center;
+    color:lightgrey;
+    text-shadow: -1px 0 #654321, 0 2px #654321, 2px 0 #654321, 0 -1px #654321;
+}
+.page1-main div.top-3 {
+    display: flex;
+    justify-content: space-around;
+    color:lightgrey;
+    text-shadow: -1px 0 #654321, 0 1px #654321, 1px 0 #654321, 0 -1px #654321;
+}
+.page1-main div.top-3-headers {
+    display: flex;
+    justify-content: space-around;
+    color:lightgrey;
+    text-shadow: -1px 0 #654321, 0 1px #654321, 1px 0 #654321, 0 -1px #654321;
+}
+.page1-main div.top-3 div {
+    height: 350px;
+    width: 30%;
+}
+.page1-main div.top-3 div .text {
+    padding: 10%;
+}
+@media screen and (max-width: 1200px) {
+    .page1-main div.top-3 div .text { font-size: 14px; }
+}
+@media screen and (max-width: 1000px) {
+    .page1-main div.top-3 div .text { font-size: 13px; }
+}
+@media screen and (max-width: 770px) {
+    .page1-main div.top-3 div .text { font-size: 11px; }
+}
+@media screen and (max-width: 620px) {
+    .page1-main div.top-3 div .text { font-size: 9px; }
+}
+@media screen and (max-width: 500px) {
+    .page1-main div.top-3 div .text { font-size: 7px; }
+}
+@media screen and (max-width: 330px) {
+    .page1-main div.top-3 div .text { font-size: 6px; }
+}
+@media screen and (max-width: 240px) {
+    .page1-main div.top-3 div .text { font-size: 5px; }
+}
+.page1-footer {
+    width: 100%;
+    background: rgb(41, 41, 41);
+    color: white;
+    margin-top: 5%;
+}
+.page1-footer section {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1% 2%;
+}
+.page1-footer section:nth-of-type(2){
+    float: right;
+    margin-top: 2%;
+    width: 30%;
+    text-align: center;
+}
+.page1-footer section h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px 0;
+    text-align: center;
+}
+.page1-footer section ul li {
+    list-style: none;
+    font-size: 18px;
+}
+.page1-footer > section > div {
+}
+.page1-footer > section > div div {
+    width: 70px;
+    height: 58px;
+    background: url("img/social.jpg");
+    display: inline-block;
+}
+.page1-footer .facebook:hover { background-position: 838px 61px; }
+.page1-footer .twitter { background-position: 772px 126px; }
+.page1-footer .twitter:hover { background-position: 772px 62.5px; }
+.page1-footer .linkedin { background-position: 645px 126px; }
+.page1-footer .linkedin:hover { background-position: 645px 62.5px; }
+.page1-footer .youtube { background-position: 325px 126px; }
+.page1-footer .youtube:hover { background-position: 325px 62.5px; }
+.page1-footer div.copyright {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bar {
+    text-align: center;
+}
+
+.text{
+    background:darkgrey;
+    opacity:0;
+}
+
+.pic1:hover .text, .pic2:hover .text, .pic3:hover .text
+{
+    opacity:1;
+    text-align:justify;
+    color:#000000;
+    font-family:"Times New Roman", Times, serif;
+    padding:30px;
+}
+
+
+/*
+End Page 1
+ */
+
+/*
+Page 2
+ */
+
+.crown {
+    max-width: 100%;
+}
+
+.page2-heading {
+    font-weight: bold;
+}
+.page2-heading span {
+    cursor: auto;
+}
+
+header{
+    height: 10%;
+}
+
+header button {
+    width: 20%;
+    border: none;
+    background: gold;
+    color: black;
+    height: 40px;
+    border-radius: 25px;
+}
+
+header button:hover{
+    cursor: pointer;
+}
+header button.next {
+    float: right;
+    margin: 5% 5% 0 0;
+}
+header button.back {
+    margin: 5% 0 0 5%;
+}
+
+section.page2-section {
+    text-align: justify;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+article{
+    margin-bottom: 20px;
+}
+article div.name {
+    height: 50px;
+}
+article h2{
+    font-weight: 900;
+    color:  #C0C0C0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: -1px 0 #654321, 0 1px #654321, 1px 0 #654321, 0 -1px #654321;
+    float: left;
+}
+article div.crowns {
+    height: 45px;
+    float: right;
+}
+article div.crowns img {
+    width: 50px;
+    float: right;
+}
+article div.info {
+    height: 260px;
+    background: #C0C0C0;
+}
+article img.bar-photo{
+    width: 350px;
+    height: 260px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 50%;
+    padding: 25px;
+}
+.selected-bar{
+    display: inline;
+    border-radius: 25px;
+    margin-top: 110px;
+}
+.selected-bar:hover{
+    cursor: pointer;
+}
+article ul{
+    color: #333333;
+    margin: 0;
+    padding: 15px;
+    text-align: right;
+    float: right;
+}
+article ul li {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+@media screen and (max-width: 1000px) {
+    article ul li {
+        font-size: 16px;
+    }
+}
+
+footer div{
+    color: cornsilk;
+    margin: 2%;
+}
+footer .contact {
+    font-size: 20px;
+}
+footer .copyright {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 880px) {
+    article ul{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    article ul{
+        width: 45%;
+    }
+    article img.bar-photo{
+        height: 200px;
+        width: 200px;
+    }
+    .back{
+        width: 143px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    article{
+        height: auto;
+        overflow: hidden;
+    }
+    article ul{
+        width: 30%;
+    }
+    article h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    article ul{
+        width: 35%;
+    }
+    article img.bar-photo{
+        height: 100px;
+        width: 100px;
+        padding: 0;
+        margin-top: 50px;
+    }
+}
+
+/*
+END Page 2
+ */
+
+/*
+Page 3
+ */
+h1>span{
+    cursor: pointer;
+}
+
+.map-container {
+    width: 100%;
+    height: 330px;
+    transform-style: preserve-3d;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.map {
+    width: 200px;
+    height: 300px;
+    margin: 0 -25px;
+    position: relative;
+    box-shadow: 0 0 110px -5px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+@media screen and (max-width: 700px){
+    .map { width: 150px; }
+}
+@media screen and (max-width: 600px){
+    .map { width: 100px; }
+    .map-container{
+        left: -45px;
+    }
+}
+.map img {
+    width: 200px;
+    height: 300px;
+    border: 1px solid white;
+}
+
+.map:hover {
+    -webkit-transition: .2s;
+    transition: .2s;
+    -webkit-transform: translateZ(5px) translateY(-20px) scale(1.05);
+    transform: translateZ(5px) translateY(-20px) scale(1.05);
+}
+
+.map-1,
+.map-4 {
+    -webkit-transform: translateZ(1px);
+    transform: translateZ(1px);
+}
+
+.map-2,
+.map-5 {
+    -webkit-transform: translateZ(2px) translateY(-5px);
+    transform: translateZ(2px) translateY(-5px);
+}
+
+.map-3 {
+    -webkit-transform: translateZ(3px) translateY(-10px);
+    transform: translateZ(3px) translateY(-10px);
+}
+
+.map-1:hover ~ .map-2 {
+    -webkit-transform: translateZ(4px) translateY(-15px);
+    transform: translateZ(4px) translateY(-15px);
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.map-4 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+}
+.map-4:hover ~ .map-5 {
+    -webkit-transform: translateZ(3px) translateY(-15px);
+    transform: translateZ(3px) translateY(-15px);
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+/*
+END PAGE 3
+ */
